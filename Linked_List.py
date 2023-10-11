@@ -258,7 +258,7 @@ class DoublyLinkedList:
 
         return -1
 
-    # Check whether the value is contained within the linked list O(1)
+    # Check whether the value is contained within the linked list O(n)
     def contains(self, value):
         return self.index_of(value) != -1
 
