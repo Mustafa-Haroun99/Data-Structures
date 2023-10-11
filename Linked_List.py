@@ -48,7 +48,7 @@ class DoublyLinkedList:
             self._tail = node
         self._size += 1
 
-    # Adding element to the beginning of the linked list O(1)
+    # Add element to the beginning of the linked list O(1)
     def add_first(self, element):
         # Check if the list is empty
         if self.is_empty():
